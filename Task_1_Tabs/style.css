@@ -1,0 +1,250 @@
+/* font-family: "Lato", sans-serif; */
+body {
+  background: #000000;
+}
+
+.main {
+  background: #292d3e;
+  background-image: url(img/bg.png);
+  /* opacity: 0.129; */
+  height: 861px;
+  width: 1008px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#box {
+  background: black;
+  height: 541px;
+  width: 600px;
+}
+
+.menu {
+  background: #2b3040;
+  height: 115px;
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.menu__left {
+  height: 115px;
+  width: 148px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.INFORMATION {
+  padding-top: 7px;
+  font-size: 16px;
+  font-family: "Lato";
+  color: #fbfbfb;
+  line-height: 1.75;
+}
+
+.menu__center {
+  height: 115px;
+  width: 148px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.RATINGS_INFO {
+  padding-top: 7px;
+  font-size: 16px;
+  font-family: "Lato";
+  color: rgba(183, 186, 205, 0.702);
+  line-height: 1.75;
+}
+
+.menu__right {
+  height: 115px;
+  width: 148px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.WHERE_TO_BUY {
+  padding-top: 7px;
+  font-size: 16px;
+  font-family: "Lato";
+  color: rgba(183, 186, 205, 0.702);
+  line-height: 1.75;
+}
+
+.content {
+  height: 428px;
+  width: 600px;
+  background: #212534;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ratings {
+  height: 428px;
+  width: 600px;
+  background-image: url(img/frog.jpg);
+}
+
+.buy {
+  height: 428px;
+  width: 600px;
+  background: black;
+}
+
+.content__information {
+  width: 514px;
+  height: 309px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content__information__img {
+  width: 201px;
+  height: 309px;
+}
+
+.content__information__text {
+  width: 313px;
+  height: 309px;
+}
+
+.content__information__text__bottom {
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content__information__text__bottom .button {
+  border-color: #13e28d;
+  color: white;
+  border-radius: 2px;
+  background-color: #13e28d;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  cursor: pointer;
+  width: 164px;
+  height: 55px;
+}
+
+.content__information__text__bottom .button:hover {
+  border-color: white;
+  background-color: white;
+  color: black;
+}
+
+.content__information__text__bottom .BUY_IT_NOW {
+  font-size: 16px;
+  font-family: "Lato";
+  color: white;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.content__information__text__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content__information__text__title .FarCry_4 {
+  margin-top: 20px;
+  font-size: 32px;
+  font-family: "Lato";
+  color: white;
+  line-height: 0.625;
+}
+
+.content__information__text__title .First_Released_Nov_17__2014 {
+  font-size: 14px;
+  font-family: "Lato";
+  color: #fdfdfd;
+  line-height: 1.429;
+}
+
+.content__information__text .In_Far_Cry_4 {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 14px;
+  font-family: "Lato";
+  color: #b7bacd;
+  line-height: 1.571;
+  text-align: left;
+}
+
+#star {
+  padding-left: 20px;
+}
+/*# sourceMappingURL=style.css.map */
